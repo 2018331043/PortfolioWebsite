@@ -43,6 +43,9 @@
 }
 body{
   font-family: sans-serif;
+  /*background-image:linear-gradient(to right,rgb(243, 243, 234),rgb(209, 209, 203)); */
+  background-image: url(images/blue-snow.png);
+  background-size: auto;
   
 }
 .navbar-brand a{
@@ -77,11 +80,15 @@ body{
 /*---------,#077894,#04394e---------#282f31-------#000000,#333f42*/
 #banner{
   /*background-image:linear-gradient(to right,#000000, #282f31) ;*/
-  background-image: url(images/background1.jpg);
+  /* background-image: url(images/background1.jpg);
+  background-size: cover; */
+  background-image: url(images/85343.jpg);
   background-size: cover;
-  color: white;
+  color: rgb(253, 252, 252);
   padding-top: 5%;
   padding-bottom: 6%;
+  opacity: 1;
+  border-bottom: 5px #17689b;
 }
 .email{
   color: #fff !important;
@@ -98,7 +105,7 @@ body{
 .rounded-circle{
   padding-left: 1px;
   width: 250px;
-  border: 0px solid #202729;
+  border: 3px solid #17689b;
   
 }
 .bottom-image{
@@ -115,12 +122,12 @@ body{
   margin-left: 100px;
   padding-top: 100px;
 }
-.card{
+/* .card{
   height: 300px;
   margin-top: 100px;
   border: none;
   background-image:linear-gradient(to right,#000000, #282f31) ;
-}
+} */
 .design-line{
   height: 50px;
   width: 100%;
@@ -128,4 +135,38 @@ body{
   border-radius: 0rem;
   background-image:linear-gradient(to right,#000000,#333f42) ;
 }
-
+hr{
+  height: 1px;
+  color: #17689b;
+}
+.about-image{
+  height: 300px;
+  width: 300px;
+  border: 3px solid #17689b;
+  border-radius: 10px;
+}
+.about-image-row{
+  margin-left: 100px;
+  margin-right: 0px;
+}
+.about-me-row{
+  padding-top: 20px;
+  padding-bottom: 12px;
+  padding-left: 0px;
+  padding-right: 100px;
+}
+.about-me-card{
+  height: 350px;
+  width: 1000px;
+  margin-left: 260px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .5rem; 
+  box-shadow: 2px 2px 3px 3px rgba(0,0,0,.125); 
+}
+.para-heading{
+  opacity: .85;
+  /* //color: #17689b; */
+}
+.about-me{
+  font-family:monospace;
+}
