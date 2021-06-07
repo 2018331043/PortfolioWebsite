@@ -24,7 +24,7 @@ function Banner() {
                 {
                     height:"1px",
                     background:"#000000",
-                    opacity:".25"
+                    opacity:".1"
                 }
                 } className="w-75 mx-auto "/>
         </div>
